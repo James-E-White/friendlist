@@ -1,7 +1,3 @@
-friend1 = Allan
-friend2 = Joel
-friend3 = Wes
-friend4 = Shane
-friend5 = Jon
+# These are my friends
 
-friends = {"Allan", "Joel", "Wes", "Shane", "Jon"}
+friends_list = "Al", "Joel", "Wes", "Shane", "Jon"
