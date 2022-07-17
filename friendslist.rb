@@ -1,9 +1,18 @@
+greeting = "Hello"
+#indexes:   01234
+
+puts greeting.length
+puts greeting[0]
+puts greeting.include? "llo"
+puts greeting.include? "z"
+puts greeting[1,3]
+
 # These are my friends
-
-puts friends_list = "Al", "Joel", "Wes", "Shane", "Jon"
-
-puts number_children_each_have = "Al3", "Joel1", "Wes1", "Shane2", "Jon3"
-
-puts friends_ages = "Al38", "Joel37", "Wes38", "Shane45", "Jon45"
-
-puts Friend1 = ["Friend1Allan", "Friend2Joel"]
+#variable is the friendlist
+friends_list = "Allan", "Joel", "Wes", "Shane", "Jon", "David"
+puts friends_list
+puts friends_list.length
+puts friends_list.include? "Me"
+puts friends_list.include? "Jon"
+puts friends_list[1,2]
+puts friends_list.index("A")
